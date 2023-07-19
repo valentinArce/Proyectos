@@ -1,0 +1,132 @@
+﻿<head>
+
+    <link rel='stylesheet' href='Inscripcion.css'>
+
+</head>
+
+<body>
+
+
+
+    <h2>Hola estas a un paso de comenzar un nuevo camino en tu formacion academica!!!</h2>
+
+    <h3>Para que puedas estudiar en nuestra Institucion necesitamos que completes el siguiente formulario:</h3>
+
+    <br>
+
+
+    <form asp-controller="Account" asp-action="Registrarse">
+        <input type="text" placeholder="Usuario..." name="UserName" id="UserName" />
+        <input type="text" placeholder="Nombre..." name="Name" id="Name" />
+        <input type="text" placeholder="Apellido..." name="LastName" id="LastName" />
+        <input type="text" placeholder="Contraseña..." name="PasswordRegister" id="PasswordRegister" />
+        <button type="submit">Registrar</button>
+    </form>
+
+    <!--Formulario de Inscripcion/Registrarse - Codigo Original-->
+    <!--
+
+    <body>
+
+        <div class="divLogin">
+
+            <form method="dialog" onsubmit="return validar()" id="formLogin">
+                <div class="imgUsuario">
+                    <img src="icons8-usuario-masculino-en-círculo-50.png" alt="Avatar" class="avatarUsuario">
+                </div>
+
+
+                <br>
+
+                <div class="Login">
+                    <label for="nombre"><b>Nombre</b></label>
+                    <input type="text" placeholder="Ingresar Nombre" name="nombre" id="nombre" required>
+
+                    <br>
+                    <br>
+                    <label for="apellido"><b>Apellido</b></label>
+                    <input type="text" placeholder="Ingresar Apellido" name="apellido" id="apellido" required>
+
+                    <br>
+                    <br>
+                    <label for="usuario"><b>Nombre de usuario</b></label>
+                    <input type="text" placeholder="Ingresar Usuario" name="usuario" id="usuario" required>
+
+
+                    <br>
+                    <br>
+                    <label for="codigo "><b>Codigo</b></label>
+                    <input type="text" placeholder="Codigo admin" name="codigo" id="codigo">
+
+                    <br>
+                    <br>
+
+                    <label for="contraseña"><b>Contraseña</b></label>
+                    <input type="password" placeholder="Ingresar Contraseña" name="contraseña" id="contraseña" required>
+
+                    <br>
+                    <br>
+
+                    <button type="submit" onclick="displayLogin()">Login</button>
+
+                    <button type="button" onclick=asp-controller ="Login" asp-action="Registro"> Registrarse</button>
+
+
+
+                    <br>
+                    <br>
+
+                </div>
+
+                <br>
+
+            </form>
+
+            <form method="dialog" onsubmit="return registrar()" id="formRegistro" style="display: none">
+
+                <div class="imgUsuario">
+                    <img src="icons8-usuario-masculino-en-círculo-50.png" alt="Avatar" class="avatarUsuario">
+                </div>
+
+                <br>
+
+                <div class="Login">
+                    <label for="usuario"><b>Usuario</b></label>
+                    <input type="text" placeholder="Ingresar Usuario" name="usuario" id="usuario" required>
+
+                    <br>
+                    <br>
+
+                    <label for="contraseña"><b>Contraseña</b></label>
+                    <input type="password" placeholder="Ingresar Contraseña" name="contraseña" id="contraseña" required>
+
+                    <br>
+                    <br>
+
+                    <label for="mail"><b>Mail</b></label>
+                    <input type="text" placeholder="Ingresar mail" name="mail" id="mail" required>
+
+
+                    <br>
+                    <br>
+
+                </div>
+
+                <br>
+
+                <button type="button" onclick="displayLogin()">Cancelar</button>
+                <button type="submit">Registrar</button>
+
+            </form>
+
+
+
+        </div>
+
+        <script src="~/js/site.js"></script>
+
+    </body>
+
+    -->
+
+</body>  

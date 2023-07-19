@@ -1,0 +1,10 @@
+Crear la base de datos
+Crear todas las tablas
+Colacarle a todas las tablas PK y FK
+Cargar datos en el modelo 
+Crear 1 vista que encapsule columnas de una tabla del modelo
+Crear 1 vista que encapsule filas de una tabla del modelo 
+Crear 1 vista que vincule a dos o mas tablas del modelo
+Crear 1 procedimiento almacenado sin parametros de entrada ni de salida
+Crear 1 procedimiento almacenado con uno o mas parametros de entrada.
+Crear 1 procedimiento con parametros de entrada y uno o mas parametros de salida.

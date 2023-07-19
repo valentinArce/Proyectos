@@ -1,0 +1,25 @@
+.imgUsuario{
+
+    padding-left: 130px;
+}
+
+.divLogin{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40%;
+    background-color: #F8CE8C;
+}
+
+.imgUsuario{
+
+    justify-content: center;
+    
+}
+
+label{
+
+    padding-right: 20px;
+    padding-top: 5px;
+}

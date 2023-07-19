@@ -1,0 +1,34 @@
+
+Desarollo en Java:
+
+# Programacion Orientada a Objetos.
+
+# Desarrollo de habilidades en la confección de programas, clases y objetos.
+
+# ESTRUCTURAS DE DATOS REPETITIVAS: ARREGLOS: VECTORES Y MATRICES.
+
+# HERENCIA y JERARQUIA de CLASES.
+
+# COMPOSICIÓN Y AGREGACIÓN EN CLASES.
+
+# EXCEPCIONES
+
+# ESTRUCTURAS LINEALES.
+
+# ESTRUCTURAS COMPLEJAS.
+
+# SCRAPING
+
+# OCR
+
+------------------------------------------------------------------------------------
+
+Programacion WEB:
+
+# HTML
+
+# CSS
+
+# JavaScript
+
+# C#

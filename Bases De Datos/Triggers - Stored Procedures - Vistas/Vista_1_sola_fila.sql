@@ -1,0 +1,5 @@
+CREATE VIEW vista_productos AS
+SELECT IDproducto, PRECIO, NOMBRE, DESCRIPCION, MARCA
+FROM Producto
+WHERE STOCK = 1;
+

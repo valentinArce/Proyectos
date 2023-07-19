@@ -1,0 +1,41 @@
+﻿@model IEnumerable<UniversidadMVC.Models.Carrera>
+
+@{
+    ViewData["Title"] = "Carrera";
+}
+
+<div>
+
+
+    <h4>Carrera</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var car in Model)
+            {
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => car.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => car.Nombre)
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
+
+</div>
+

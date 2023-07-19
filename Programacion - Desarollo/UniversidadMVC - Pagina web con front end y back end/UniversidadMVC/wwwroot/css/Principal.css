@@ -1,0 +1,168 @@
+body{
+
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #F8CE8C;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+
+    /*display: flex; para que se visualuze del lado derecho*/
+    display: flex;
+    flex-direction
+    min-height: 100px;
+    background-color: #F5AB34;
+    /*justify-content: space-between; para separar entre textos*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+
+    height: 100px;
+    width: 100px;
+}
+
+nav a{
+
+  font-weight: 600px;
+  padding: 10px;
+
+}
+
+/*le agregamos un hover para que cambie de color cuando pasamos el puntero por encima*/
+nav a:hover{
+  
+    color: white;
+
+}
+
+
+/*agregamos el responsive para el header*/
+@media (max-width:700px){
+
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+h1{
+
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FE5E2A;
+    
+}
+
+/*Carrusel (slider automatico)*/
+.slider{
+
+    width: 800px;
+    height: 500px;
+    margin: 1px auto 0;
+    overflow: hidden;
+    
+    
+}
+
+.slider ul{
+
+    display: flex;
+    padding: 0;
+    width: 400%;
+     
+    animation: cambio 15s infinite alternate linear;
+}
+
+.slider li{
+
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+/*Mas Info*/
+
+.Sobre_Nosotros{
+
+    background-color: #FA660A;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.Sobre_Nosotros a{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Contacto{
+
+    background-color: #FA660A;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.Contacto a{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Preguntas_Frecuentes{
+
+    background-color: #FA660A;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.Preguntas_Frecuentes a{
+
+    display: flex;
+    justify-content: left;
+    
+}
+
+footer{
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5AB34;
+}
+

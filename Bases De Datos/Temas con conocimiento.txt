@@ -1,0 +1,24 @@
+
+# Creacion de Bases de Datos
+
+# Creacion de tablas
+
+# tablas: INSERT, UPDATE, DELETE, ETC
+
+# WHERE, LOOP, CASES
+
+# JOIN, INNER JOIN, LEFT JOIN, RIGHT JOIN
+
+# ORDER BY, GROUP BY
+
+# COUNT, AVG, SUM
+
+# TRIGGERS
+
+# STORED PROCEDURES
+
+# VISTAS
+
+# Normalizacion
+
+# ETC
